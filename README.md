@@ -54,8 +54,10 @@ Before you begin, make sure you have the following installed:
 
 3. Create a `.env` file in the root directory and add the following environment variables:
    ```bash
-   MONGODB_URI=your_mongodb_connection_string
-   PORT=5000
+    ENVIRONMENT=development
+    PORT=8010
+    SOCKET_PORT=8011
+    MONGODB_URL=
    ```
 
 4. Run the application:
