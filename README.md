@@ -1,17 +1,10 @@
-# ecommerce-analytics
+
+
+# Ecommerce Analytics
 
 ![alt text](image.png)
 ![alt text](image-1.png)
 ![alt text](image-2.png)
-
-
-
-
-Creating a **README.md** file for your **ecommerce-analytics** application involves providing essential information about the project, including its purpose, setup instructions, features, usage, and contributing guidelines. Here's a standard way to structure the **README.md** file for your application:
-
----
-
-# Ecommerce Analytics
 
 ## Overview
 
@@ -23,6 +16,7 @@ Ecommerce Analytics is a robust application designed to track, record, and analy
 - **Page-wise Visitor Count**: Get the count of how many times each visitor has visited a page in a day.
 - **Analytics**: View aggregated data on visitor activities to gain insights into user behavior.
 - **Real-time Session Logging**: Tracks and logs each visitor's actions in real time.
+- **Socket.IO Integration**: Provides real-time updates via WebSockets for visitor activity logs.
 - **Error Handling**: Centralized error handler for consistent API error responses.
 - **Standardized API Responses**: API responses follow a consistent format for easy consumption.
 
@@ -32,6 +26,7 @@ Ecommerce Analytics is a robust application designed to track, record, and analy
 - **Database**: MongoDB
 - **ORM**: Mongoose
 - **Date/Time Handling**: Moment.js (timezone support for Asia/Dhaka)
+- **Real-Time Communication**: Socket.IO
 - **Error Handling**: Centralized middleware for standardized error responses
 - **Environment**: MongoDB Atlas (or local database)
 
@@ -111,7 +106,7 @@ Before you begin, make sure you have the following installed:
 - **Description**: Retrieves the count of visitors per page for a specific day.
 - **Query Parameters**:
   - `date`: The date in `YYYY-MM-DD` format for which you want to retrieve the data.
-  
+
 - **Example Request**:
   ```
   GET /api/visitor/analytics?date=2024-11-14
@@ -137,6 +132,55 @@ Before you begin, make sure you have the following installed:
     ]
   }
   ```
+
+---
+
+## Socket.IO Integration
+
+This application also uses **Socket.IO** for real-time visitor activity tracking. Socket.IO allows the server to push updates to connected clients (such as a dashboard) immediately when visitor activity is logged.
+
+### 1. **Real-Time Visitor Activity Log via Socket.IO**
+
+The following log is emitted through **Socket.IO** each time visitor activity is recorded:
+
+#### Socket.IO Log Format:
+
+```json
+{
+  "Ack": "visitorActivity",
+  "data": {
+    "visitorId": "096c64e82cd71387cc1235",
+    "userType": "login",
+    "userName": "John Doe",
+    "pageName": "homepage",
+    "pageId": "",
+    "deviceType": "website",
+    "ipAddress": "192.168.1.1",
+    "requestDevice": "website",
+    "sourceName": "google",
+    "reqUrl": "/",
+    "pageCount": 1,
+    "duration": 30000,
+    "statusId": 1
+  }
+}
+```
+
+#### Explanation of Fields:
+- `Ack`: Acknowledgment type, indicating the type of activity log (`visitorActivity`).
+- `visitorId`: Unique identifier for the visitor session.
+- `userType`: Type of the user, such as `guest` or `login`.
+- `userName`: Name of the user (if available).
+- `pageName`: Name of the page visited.
+- `pageId`: ID of the page (optional).
+- `deviceType`: Type of device (e.g., `mobile`, `website`).
+- `ipAddress`: IP address of the visitor.
+- `requestDevice`: The device used to make the request (e.g., `iPhone`, `website`).
+- `sourceName`: Source of the visit (e.g., `google`).
+- `reqUrl`: The URL visited.
+- `pageCount`: The number of pages visited in the session.
+- `duration`: Duration of the visit in milliseconds.
+- `statusId`: Status identifier for the session (e.g., `1` for active, `2` for inactive).
 
 ---
 
@@ -213,4 +257,3 @@ For more information on usage, configuration, and extending the application, ple
 
 ---
 
-This structure ensures that the **README.md** provides all the necessary information for setting up, using, and contributing to the **ecommerce-analytics** application in a standardized way.
