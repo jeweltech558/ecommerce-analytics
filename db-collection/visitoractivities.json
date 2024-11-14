@@ -1,0 +1,694 @@
+[{
+  "_id": {
+    "$oid": "67358f85cb440c92cd13125a"
+  },
+  "visitorId": "096c64e82cd71387cc1234",
+  "userType": "login",
+  "deviceType": "website",
+  "userName": "John Doe",
+  "ipAddress": "192.168.1.1",
+  "requestDevice": "website",
+  "sourceName": "google",
+  "reqUrl": "/",
+  "pageCount": 3,
+  "requestStartDateTime": {
+    "$date": {
+      "$numberLong": "1731476978000"
+    }
+  },
+  "duration": 90000,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1731476978000"
+    }
+  },
+  "pageName": "homepage",
+  "pageId": "",
+  "statusId": 1,
+  "requestEndDateTime": {
+    "$date": {
+      "$numberLong": "1731477837000"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6735933996d428d1d3303bf7"
+  },
+  "visitorId": "096c64e82cd71387cc1234",
+  "userType": "login",
+  "deviceType": "website",
+  "userName": "John Doe",
+  "ipAddress": "192.168.1.10",
+  "requestDevice": "website",
+  "sourceName": "google",
+  "reqUrl": "/crime-and-punishment",
+  "pageCount": 3,
+  "requestStartDateTime": {
+    "$date": {
+      "$numberLong": "1731564345000"
+    }
+  },
+  "duration": 90000,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1731564345000"
+    }
+  },
+  "pageName": "crime and punishment",
+  "pageId": "",
+  "statusId": 1,
+  "requestEndDateTime": {
+    "$date": {
+      "$numberLong": "1731564374000"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6735934196d428d1d3303bfa"
+  },
+  "visitorId": "096c64e82cd71387cc1230",
+  "userType": "login",
+  "deviceType": "website",
+  "userName": "John Doe",
+  "ipAddress": "192.168.1.10",
+  "requestDevice": "website",
+  "sourceName": "google",
+  "reqUrl": "/crime-and-punishment",
+  "pageCount": 1,
+  "requestStartDateTime": {
+    "$date": {
+      "$numberLong": "1731477953000"
+    }
+  },
+  "duration": 30000,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1731477953000"
+    }
+  },
+  "pageName": "crime and punishment",
+  "pageId": "",
+  "statusId": 1,
+  "requestEndDateTime": {
+    "$date": {
+      "$numberLong": "1731477953000"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6735934796d428d1d3303bfd"
+  },
+  "visitorId": "096c64e82cd71387cc1237",
+  "userType": "login",
+  "deviceType": "website",
+  "userName": "John Doe",
+  "ipAddress": "192.168.1.10",
+  "requestDevice": "website",
+  "sourceName": "google",
+  "reqUrl": "/crime-and-punishment",
+  "pageCount": 4,
+  "requestStartDateTime": {
+    "$date": {
+      "$numberLong": "1731564359000"
+    }
+  },
+  "duration": 120000,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1731564359000"
+    }
+  },
+  "pageName": "crime and punishment",
+  "pageId": "",
+  "statusId": 1,
+  "requestEndDateTime": {
+    "$date": {
+      "$numberLong": "1731564361000"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6735935096d428d1d3303c06"
+  },
+  "visitorId": "096c64e82cd71387cc1239",
+  "userType": "login",
+  "deviceType": "website",
+  "userName": "John Doe",
+  "ipAddress": "192.168.1.10",
+  "requestDevice": "website",
+  "sourceName": "google",
+  "reqUrl": "/crime-and-punishment",
+  "pageCount": 1,
+  "requestStartDateTime": {
+    "$date": {
+      "$numberLong": "1731564368000"
+    }
+  },
+  "duration": 30000,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1731564368000"
+    }
+  },
+  "pageName": "crime and punishment",
+  "pageId": "",
+  "statusId": 1,
+  "requestEndDateTime": {
+    "$date": {
+      "$numberLong": "1731564368000"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6735941496d428d1d3303c0d"
+  },
+  "visitorId": "096c64e82cd71387cc1210",
+  "userType": "guest",
+  "deviceType": "website",
+  "userName": "",
+  "ipAddress": "192.168.1.10",
+  "requestDevice": "website",
+  "sourceName": "google",
+  "reqUrl": "/tshit-283",
+  "pageCount": 4,
+  "requestStartDateTime": {
+    "$date": {
+      "$numberLong": "1731564564000"
+    }
+  },
+  "duration": 120000,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1731564564000"
+    }
+  },
+  "pageName": "tshit-283",
+  "pageId": "",
+  "statusId": 1,
+  "requestEndDateTime": {
+    "$date": {
+      "$numberLong": "1731564574000"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6735942796d428d1d3303c16"
+  },
+  "visitorId": "096c64e82cd7138799001",
+  "userType": "guest",
+  "deviceType": "website",
+  "userName": "",
+  "ipAddress": "192.168.1.10",
+  "requestDevice": "website",
+  "sourceName": "google",
+  "reqUrl": "",
+  "pageCount": 1,
+  "requestStartDateTime": {
+    "$date": {
+      "$numberLong": "1731564583000"
+    }
+  },
+  "duration": 30000,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1731564583000"
+    }
+  },
+  "pageName": "tshit-283",
+  "pageId": "",
+  "statusId": 1,
+  "requestEndDateTime": {
+    "$date": {
+      "$numberLong": "1731564583000"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6735942d96d428d1d3303c19"
+  },
+  "visitorId": "096c64e82cd7138799002",
+  "userType": "guest",
+  "deviceType": "website",
+  "userName": "",
+  "ipAddress": "192.168.1.10",
+  "requestDevice": "website",
+  "sourceName": "google",
+  "reqUrl": "",
+  "pageCount": 2,
+  "requestStartDateTime": {
+    "$date": {
+      "$numberLong": "1731564589000"
+    }
+  },
+  "duration": 60000,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1731564589000"
+    }
+  },
+  "pageName": "tshit-283",
+  "pageId": "",
+  "statusId": 1,
+  "requestEndDateTime": {
+    "$date": {
+      "$numberLong": "1731564590000"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6735943496d428d1d3303c1e"
+  },
+  "visitorId": "096c64e82cd7138799004",
+  "userType": "guest",
+  "deviceType": "website",
+  "userName": "",
+  "ipAddress": "192.168.1.10",
+  "requestDevice": "website",
+  "sourceName": "google",
+  "reqUrl": "",
+  "pageCount": 1,
+  "requestStartDateTime": {
+    "$date": {
+      "$numberLong": "1731564596000"
+    }
+  },
+  "duration": 30000,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1731564596000"
+    }
+  },
+  "pageName": "tshit-283",
+  "pageId": "",
+  "statusId": 1,
+  "requestEndDateTime": {
+    "$date": {
+      "$numberLong": "1731564596000"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6735943996d428d1d3303c21"
+  },
+  "visitorId": "096c64e82cd7138799009",
+  "userType": "guest",
+  "deviceType": "website",
+  "userName": "",
+  "ipAddress": "192.168.1.10",
+  "requestDevice": "website",
+  "sourceName": "google",
+  "reqUrl": "",
+  "pageCount": 1,
+  "requestStartDateTime": {
+    "$date": {
+      "$numberLong": "1731564601000"
+    }
+  },
+  "duration": 30000,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1731564601000"
+    }
+  },
+  "pageName": "tshit-283",
+  "pageId": "",
+  "statusId": 1,
+  "requestEndDateTime": {
+    "$date": {
+      "$numberLong": "1731564601000"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6735944796d428d1d3303c24"
+  },
+  "visitorId": "096c64e82cd7138799001",
+  "userType": "guest",
+  "deviceType": "website",
+  "userName": "",
+  "ipAddress": "192.168.1.10",
+  "requestDevice": "website",
+  "sourceName": "google",
+  "reqUrl": "",
+  "pageCount": 2,
+  "requestStartDateTime": {
+    "$date": {
+      "$numberLong": "1731564615000"
+    }
+  },
+  "duration": 60000,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1731564615000"
+    }
+  },
+  "pageName": "book-283",
+  "pageId": "",
+  "statusId": 1,
+  "requestEndDateTime": {
+    "$date": {
+      "$numberLong": "1731564615000"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6735945c96d428d1d3303c29"
+  },
+  "visitorId": "096c64e82cd7138799001",
+  "userType": "guest",
+  "deviceType": "website",
+  "userName": "",
+  "ipAddress": "192.168.1.10",
+  "requestDevice": "website",
+  "sourceName": "google",
+  "reqUrl": "",
+  "pageCount": 2,
+  "requestStartDateTime": {
+    "$date": {
+      "$numberLong": "1731564636000"
+    }
+  },
+  "duration": 60000,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1731564636000"
+    }
+  },
+  "pageName": "brand-page",
+  "pageId": "",
+  "statusId": 1,
+  "requestEndDateTime": {
+    "$date": {
+      "$numberLong": "1731564647000"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6735946d96d428d1d3303c2e"
+  },
+  "visitorId": "096c64e82cd7138799010",
+  "userType": "guest",
+  "deviceType": "website",
+  "userName": "",
+  "ipAddress": "192.168.1.10",
+  "requestDevice": "website",
+  "sourceName": "google",
+  "reqUrl": "",
+  "pageCount": 1,
+  "requestStartDateTime": {
+    "$date": {
+      "$numberLong": "1731564653000"
+    }
+  },
+  "duration": 30000,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1731564653000"
+    }
+  },
+  "pageName": "brand-page",
+  "pageId": "",
+  "statusId": 1,
+  "requestEndDateTime": {
+    "$date": {
+      "$numberLong": "1731564653000"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6735947196d428d1d3303c31"
+  },
+  "visitorId": "096c64e82cd7138799011",
+  "userType": "guest",
+  "deviceType": "website",
+  "userName": "",
+  "ipAddress": "192.168.1.10",
+  "requestDevice": "website",
+  "sourceName": "google",
+  "reqUrl": "",
+  "pageCount": 1,
+  "requestStartDateTime": {
+    "$date": {
+      "$numberLong": "1731564657000"
+    }
+  },
+  "duration": 30000,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1731564657000"
+    }
+  },
+  "pageName": "brand-page",
+  "pageId": "",
+  "statusId": 1,
+  "requestEndDateTime": {
+    "$date": {
+      "$numberLong": "1731564657000"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6735947596d428d1d3303c34"
+  },
+  "visitorId": "096c64e82cd7138799012",
+  "userType": "guest",
+  "deviceType": "website",
+  "userName": "",
+  "ipAddress": "192.168.1.10",
+  "requestDevice": "website",
+  "sourceName": "google",
+  "reqUrl": "",
+  "pageCount": 1,
+  "requestStartDateTime": {
+    "$date": {
+      "$numberLong": "1731564661000"
+    }
+  },
+  "duration": 30000,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1731564661000"
+    }
+  },
+  "pageName": "brand-page",
+  "pageId": "",
+  "statusId": 1,
+  "requestEndDateTime": {
+    "$date": {
+      "$numberLong": "1731564661000"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6735947b96d428d1d3303c37"
+  },
+  "visitorId": "096c64e82cd7138799012",
+  "userType": "guest",
+  "deviceType": "website",
+  "userName": "",
+  "ipAddress": "192.168.1.10",
+  "requestDevice": "website",
+  "sourceName": "google",
+  "reqUrl": "",
+  "pageCount": 1,
+  "requestStartDateTime": {
+    "$date": {
+      "$numberLong": "1731564667000"
+    }
+  },
+  "duration": 30000,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1731564667000"
+    }
+  },
+  "pageName": "category-page",
+  "pageId": "",
+  "statusId": 1,
+  "requestEndDateTime": {
+    "$date": {
+      "$numberLong": "1731564667000"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6735947f96d428d1d3303c3a"
+  },
+  "visitorId": "096c64e82cd7138799013",
+  "userType": "guest",
+  "deviceType": "website",
+  "userName": "",
+  "ipAddress": "192.168.1.10",
+  "requestDevice": "website",
+  "sourceName": "google",
+  "reqUrl": "",
+  "pageCount": 7,
+  "requestStartDateTime": {
+    "$date": {
+      "$numberLong": "1731564671000"
+    }
+  },
+  "duration": 210000,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1731564671000"
+    }
+  },
+  "pageName": "category-page",
+  "pageId": "",
+  "statusId": 1,
+  "requestEndDateTime": {
+    "$date": {
+      "$numberLong": "1731564674000"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6735948796d428d1d3303c49"
+  },
+  "visitorId": "096c64e82cd7138799014",
+  "userType": "guest",
+  "deviceType": "website",
+  "userName": "",
+  "ipAddress": "192.168.1.10",
+  "requestDevice": "website",
+  "sourceName": "google",
+  "reqUrl": "",
+  "pageCount": 2,
+  "requestStartDateTime": {
+    "$date": {
+      "$numberLong": "1731564679000"
+    }
+  },
+  "duration": 60000,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1731564679000"
+    }
+  },
+  "pageName": "category-page",
+  "pageId": "",
+  "statusId": 1,
+  "requestEndDateTime": {
+    "$date": {
+      "$numberLong": "1731564679000"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6735a23210f5c00a92e19c46"
+  },
+  "visitorId": "096c64e82cd71387cc1234",
+  "userType": "login",
+  "deviceType": "website",
+  "userName": "John Doe",
+  "ipAddress": "192.168.1.1",
+  "requestDevice": "website",
+  "sourceName": "google",
+  "reqUrl": "/",
+  "pageCount": 1,
+  "requestStartDateTime": {
+    "$date": {
+      "$numberLong": "1731568178000"
+    }
+  },
+  "duration": 30000,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1731568178000"
+    }
+  },
+  "pageName": "homepage",
+  "pageId": "",
+  "statusId": 1,
+  "requestEndDateTime": {
+    "$date": {
+      "$numberLong": "1731568178000"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6735a25510f5c00a92e19c49"
+  },
+  "visitorId": "096c64e82cd71387cc1235",
+  "userType": "login",
+  "deviceType": "website",
+  "userName": "John Doe",
+  "ipAddress": "192.168.1.1",
+  "requestDevice": "website",
+  "sourceName": "google",
+  "reqUrl": "/",
+  "pageCount": 1,
+  "requestStartDateTime": {
+    "$date": {
+      "$numberLong": "1731481813000"
+    }
+  },
+  "duration": 30000,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1731481813000"
+    }
+  },
+  "pageName": "homepage",
+  "pageId": "",
+  "statusId": 1,
+  "requestEndDateTime": {
+    "$date": {
+      "$numberLong": "1731481813000"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6735ae4b50de8975b210790e"
+  },
+  "visitorId": "096c64e82cd71387cc1235",
+  "userType": "login",
+  "deviceType": "website",
+  "userName": "John Doe",
+  "ipAddress": "192.168.1.1",
+  "requestDevice": "website",
+  "sourceName": "google",
+  "reqUrl": "/",
+  "pageCount": 2,
+  "requestStartDateTime": {
+    "$date": {
+      "$numberLong": "1731571275000"
+    }
+  },
+  "duration": 60000,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1731571275000"
+    }
+  },
+  "pageName": "homepage",
+  "pageId": "",
+  "statusId": 1,
+  "requestEndDateTime": {
+    "$date": {
+      "$numberLong": "1731571277000"
+    }
+  },
+  "__v": 0
+}]
