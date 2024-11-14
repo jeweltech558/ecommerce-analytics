@@ -1,0 +1,20 @@
+
+{
+    "Ack": "visitorActivity",
+    "data": {
+      "visitorId": "096c64e82cd71387cc1235",
+      "userType": "login",
+      "userName": "John Doe",
+      "pageName": "homepage",
+      "pageId": "",
+      "deviceType": "website",
+      "ipAddress": "192.168.1.1",
+      "requestDevice": "website",
+      "sourceName": "google",
+      "reqUrl": "/",
+      "pageCount": 1,
+      "duration": 30000,
+      "statusId": 1
+    }
+  }
+  

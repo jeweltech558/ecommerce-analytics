@@ -1,0 +1,108 @@
+{
+	"info": {
+		"_postman_id": "f0df4005-eddf-42e6-99a9-78f43256c653",
+		"name": "ecommerce-analytics",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "26119659",
+		"_collection_link": "https://restless-desert-69892.postman.co/workspace/NodeJs-Project~d48f8e22-8928-40c2-85da-750d6bc98ff7/collection/26119659-f0df4005-eddf-42e6-99a9-78f43256c653?action=share&source=collection_link&creator=26119659"
+	},
+	"item": [
+		{
+			"name": "Get Daily Page Wise Count",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDY0ODVmOWU1YjllYjE3MDIwZTAzYzAiLCJuYW1lIjoiYWRtaW4iLCJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBob25lIjoiMDE3NTY4Nzc3ODEiLCJpYXQiOjE3MzE0NzU2OTgsImV4cCI6MTczMjA4MDQ5OH0.ukQ9kT9yLZlrM450YOBuog_L7dQVGcTalwLF62HMeGg"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8010/api/visitor/page-wise-count?date=2024-11-14",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8010",
+					"path": [
+						"api",
+						"visitor",
+						"page-wise-count"
+					],
+					"query": [
+						{
+							"key": "date",
+							"value": "2024-11-14"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Daily Visitor wise Activity Count",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDY0ODVmOWU1YjllYjE3MDIwZTAzYzAiLCJuYW1lIjoiYWRtaW4iLCJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBob25lIjoiMDE3NTY4Nzc3ODEiLCJpYXQiOjE3MzE0NzU2OTgsImV4cCI6MTczMjA4MDQ5OH0.ukQ9kT9yLZlrM450YOBuog_L7dQVGcTalwLF62HMeGg"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8010/api/visitor/daily-visitor-wise-activity-count?date=2024-11-13",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8010",
+					"path": [
+						"api",
+						"visitor",
+						"daily-visitor-wise-activity-count"
+					],
+					"query": [
+						{
+							"key": "date",
+							"value": "2024-11-13"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": {
+			"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDY0ODVmOWU1YjllYjE3MDIwZTAzYzAiLCJuYW1lIjoiYWRtaW4iLCJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBob25lIjoiMDE3NTY4Nzc3ODEiLCJpYXQiOjE3MzE0NzU2OTgsImV4cCI6MTczMjA4MDQ5OH0.ukQ9kT9yLZlrM450YOBuog_L7dQVGcTalwLF62HMeGg"
+		}
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "Sl_Visitor_Analytics_Host",
+			"value": "http://localhost:8010/api",
+			"type": "string"
+		}
+	]
+}
